@@ -1,0 +1,305 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 778px;
+    height: auto;
+    margin: auto auto;
+}
+
+#header-nav {
+    margin-bottom: 27px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 23px 45px;*/
+    padding: 23px 0;
+}
+
+.nav-list-menu {
+
+}
+
+.list-menu {
+    display: flex;
+    gap: 14px;
+}
+
+.btn-purple {
+    background-color: purple;
+}
+
+.btn-outline {
+}
+
+.title-pd {
+    padding: 6px 11px
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.btn-btn-bw {
+
+}
+
+.color {
+    color: #ffffff;
+}
+
+.btn-font {
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 100%;
+}
+
+.color-fontGot {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 100%;
+
+}
+
+.color-fontAnton {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 90%;
+    margin-bottom: 9px;
+}
+
+.partner {
+    margin-bottom: 65px;
+}
+
+.part-ner {
+    width: 312px;
+    gap: 32px;
+}
+
+.bg-color {
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    background: linear-gradient(90deg, #FA709A 0%, #FEE140 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 32px;
+}
+
+.part-ner-tc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part-ner-img-tc {
+    /*width: 369px;*/
+    /*height: 313px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.part-ner-img {
+
+    margin-bottom: auto;
+}
+
+.list-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    border: 0.5px solid #ffffff;
+}
+
+.full-sire {
+    background-color: #292929;
+    width: 100%;
+    height: 24px;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.data-statistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 688.95px;
+    height: 167.25px;
+}
+
+.title-sire-font {
+    display: block;
+}
+
+.font-An-sire {
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.6px;
+    line-height: 90%;
+    margin-bottom: 10px;
+}
+.font-got-sire {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2px;
+    line-height: 100%;
+}
+.font-An-sire-pd {
+    margin-bottom: 16px;
+}
+.color-title {
+    color: #C8FEC7;
+}
+.card{
+}
+
+.card-image-dev{
+    /*padding: 13px 13px;*/
+    width: 162px;
+
+    border: 1px solid #4f4f4f;
+    border-radius: 5px;
+align-items: center;
+    /*align-items: center;*/
+}
+.card-image-dev-link{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+}
+.card-image-dev img {
+    display: flex;
+    margin: 15px auto;
+}
+.btn-link {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 100%;
+    display: flex;
+
+}
+.btn-link-bd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:39px;
+    height: 11px;
+    background-color: #292929;
+    border-radius: 20px;
+    border: #4f4f4f solid 1px;
+    margin: 10px 0;
+}
+.btn-link-bd a {
+    color: #784DC7;
+}
+.link-btn-list{
+    margin: 0 11px;
+}
+.font-got-sire-btn{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 100%;
+}
+.btn-btn-maxsire{
+    width: 135px;
+    height: 18px;
+    background-color: #292929;
+    margin: 0 11px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
